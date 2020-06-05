@@ -1,0 +1,120 @@
+:root {
+  --First: #212121;
+  --second: #757575;
+  --third: #ffffff;
+  --link: #2196f3;
+  --bgp: rgba(47, 48, 58, 0.8);
+  --bgp-features: #f5f4fa;
+  --bgp-footer: #2f303a;
+}
+
+body {
+  color: var(--second);
+}
+
+h2,
+h3 {
+  color: var(--First);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header-logo,
+.footer-logo {
+  color: var(--link);
+}
+.logo-studio {
+  color: #000000;
+}
+.logo-studio-footer {
+  color: var(--third);
+}
+.first {
+  color: var(--First);
+}
+.first:hover,
+.first:focus {
+  color: var(--link);
+}
+.overlay {
+  width: 400px;
+  height: 100px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.overlay h1 {
+  color: var(--third);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.invisible {
+  color: var(--third);
+}
+.nav-email,
+.nav-tel {
+  color: var(--second);
+}
+.nav-tel:hover,
+.nav-tel:focus {
+  color: var(--link);
+}
+.nav-email:hover,
+.nav-email:focus {
+  color: var(--link);
+}
+.filter {
+  color: var(--First);
+}
+.filter:hover,
+.filter:focus {
+  color: var(--third);
+  background-color: var(--link);
+}
+.link2 p {
+  color: var(--second);
+}
+.link {
+  background-color: var(--bgp-features);
+}
+.link:hover,
+.link:focus {
+  background-color: var(--link);
+}
+.color-white {
+  color: var(--third);
+}
+.overlay span {
+  background-color: var(--link);
+}
+footer {
+  background-color: var(--bgp-footer);
+}
+.prof {
+  background-color: var(--bgp);
+}
+#address a {
+  color: var(--second);
+}
+#address a:hover,
+#address a:focus {
+  color: var(--link);
+}
+.index {
+  color: var(--third);
+}
+.clients a:hover,
+.client a:focus {
+  background-color: var(--link);
+}
+.site a {
+  color: var(--second);
+}
+.site a:hover,
+.site:focus {
+  color: var(--third);
+  background-color: var(--link);
+}
