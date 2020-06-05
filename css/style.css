@@ -25,7 +25,7 @@ a {
   text-decoration: none;
 }
 .header {
-  width: 100%;
+  width: 1600px;
   height: 81px;
   display: flex;
 }
@@ -100,7 +100,7 @@ a {
   margin-top: 32px;
 }
 .header-backgroup {
-  width: 100%;
+  width: 1600px;
   height: 600px;
   background-image: url(../images/header-img.jpg);
 }
@@ -132,7 +132,7 @@ a {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-left: 233px;
+  margin-left: 223px;
   margin-top: 46px;
   display: flex;
   flex-direction: row;
