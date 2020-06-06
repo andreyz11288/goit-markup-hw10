@@ -183,6 +183,7 @@ a {
   height: 251px;
 }
 .antena-li {
+  display: inline-block;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -231,6 +232,7 @@ a {
   margin-left: 30px;
 }
 .clock-li {
+  display: inline-block;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -279,6 +281,7 @@ a {
   margin-left: 30px;
 }
 .diagram-li {
+  display: inline-block;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -327,6 +330,7 @@ a {
   margin-left: 30px;
 }
 .astro-li {
+  display: inline-block;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -439,6 +443,16 @@ a {
 .worck1 {
   width: 370px;
   height: 294px;
+  background-image: url(../images/box1.jpg);
+}
+.wor1 {
+  display: block;
+  width: 370px;
+  height: 294px;
+}
+.wor1:hover,
+.wor1:focus {
+  background-color: rgba(00, 191, 255, 0.45);
 }
 .bg-worck1 {
   position: absolute;
@@ -458,12 +472,23 @@ a {
   text-transform: uppercase;
   color: #ffffff;
 }
-.worck2,
-.worck3 {
+
+.worck2 {
   width: 370px;
   height: 294px;
   margin-left: 30px;
+  background-image: url(../images/box2.jpg);
 }
+.wor2 {
+  display: block;
+  width: 370px;
+  height: 294px;
+}
+.wor2:hover,
+.wor2:focus {
+  background-color: rgba(00, 191, 255, 0.45);
+}
+
 .bg-worck2 {
   position: absolute;
   width: 370px;
@@ -481,6 +506,22 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.worck3 {
+  width: 370px;
+  height: 294px;
+  margin-left: 30px;
+  background-image: url(../images/box3.jpg);
+}
+.wor3 {
+  display: block;
+  width: 370px;
+  height: 294px;
+}
+.wor3:hover,
+.wor3:focus {
+  background-color: rgba(00, 191, 255, 0.45);
 }
 .bg-worck3 {
   position: absolute;
@@ -535,6 +576,11 @@ a {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.john > a {
+  display: block;
+  width: 270px;
+  height: 260px;
 }
 .john > h3 {
   width: 87px;
