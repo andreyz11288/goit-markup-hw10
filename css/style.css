@@ -770,6 +770,164 @@ a {
 .martin li:not(:first-child) {
   margin-left: 11px;
 }
+.regular-clients {
+  width: 1170px;
+  height: 182px;
+  margin: 94px 0px 94px 215px;
+}
+.regular-clients > h2 {
+  width: 391px;
+  height: 42px;
+  margin: 94px 0px 50px 391px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.clients {
+  display: flex;
+  flex-direction: row;
+}
+.clients > li:not(:first-child) {
+  margin-left: 30px;
+}
+/* Footer */
+footer {
+  width: 1600px;
+  height: 253px;
+  background-color: #2f303a;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.footer-logo {
+  display: inline-block;
+  width: 130px;
+  height: 26px;
+  margin: 48px 0px 10px 214px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+#address {
+  width: 231px;
+  height: 81px;
+  margin-left: 215px;
+}
+#address li:not(:first-child) {
+  margin-top: 9px;
+}
+.join-in {
+  width: 206px;
+  height: 81px;
+  margin: 56px 0px 0px 69px;
+}
+.join-in > h3 {
+  width: 145px;
+  height: 16px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.site {
+  display: flex;
+  flex-direction: row;
+  margin-top: 21px;
+}
+.site > li:not(:first-child) {
+  margin-left: 10px;
+}
+
+.mailing {
+  width: 570px;
+  height: 87px;
+  margin: 56px 0px 0px 94px;
+}
+.mailing > h3 {
+  width: 219px;
+  height: 16px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.mailing .e-mail {
+  display: block;
+  width: 358px;
+  height: 50px;
+  margin-top: 21px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.mailing .button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 21px 0px 0px 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.mailing > div {
+  display: flex;
+  flex-direction: row;
+}
+footer > p {
+  width: 310px;
+  height: 21px;
+  margin: 68px 0px 0px 645px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.4);
+}
 /* Фильтр второй страницы */
 .filter {
   color: var(--First);
@@ -789,9 +947,9 @@ a {
 /* .overlay span {
   background-color: var(--link);
 } */
-footer {
+/* footer {
   background-color: var(--bgp-footer);
-}
+} */
 .prof {
   background-color: var(--bgp);
 }
